@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-au">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/my_style.css">
+<title>About Us Page</title>
+</head>
+
+<body>
+<div class="topnav" id="myTopnav">
+  <a href="index.htm" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact Us</a>
+  <div class="dropdown">
+    <button class="dropbtn">Products 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Product 1</a>
+      <a href="#">Product 2</a>
+      <a href="#">Product 3</a>
+    </div>
+  </div> 
+  <a href="about.htm">About Us</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<h1>Abut Us</h1>
+
+
+<h2>Our Location</h2>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6610.2548448964635!2d150.7957015053126!3d-34.06624768760521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sau!4v1667128608450!5m2!1sen!2sau" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<p>Do you like our products? If so, register to get more</p>
+<form action="success.htm" method="get">
+  <label>Name:
+    <input name="name">
+  </label><br>  
+  <label>Email: 
+    <input name="email" type="email">
+   </label><br>
+  <label>Password: 
+    <input name="password" type="password">
+   </label><br>
+  <label>Search: 
+    <input name="serch" type="search">
+   </label><br>
+  <label>Phone Number: 
+    <input name="phone" type="tel">
+   </label><br>
+  <label>Description: 
+    <textarea name="description" cols="40" rows="5"></textarea>
+   </label><br>
+  <label>Colour: 
+    <input name="color" type="color">
+   </label><br>
+  <label>File: 
+    <input name="file" type="file">
+   </label><br>
+  <label>Date: 
+    <input name="date" type="date">
+   </label><br>
+<button name="submit">Register</button>
+</form>
+<footer>
+  <a href="/privacy">Privacy Policy</a>&nbsp;&nbsp;
+  <a href="/legal">Terms of Service</a>
+</footer>
+</body>
+</html>
